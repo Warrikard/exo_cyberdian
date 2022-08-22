@@ -11,6 +11,7 @@
         <span class="text">Dashbord</span>
       </router-link>
     </div>
+    
     <h3>Theme</h3>
     <div class="menu">
       <router-link to="/Colors" class="button">
@@ -24,11 +25,11 @@
     </div>
     <h3>Components</h3>
     <div class="menu">
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">pentagon</span>
         <span class="text">Base</span>
       </router-link>
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">near_me</span>
         <span class="text">Buttons</span>
       </router-link>
@@ -36,26 +37,26 @@
         <span class="material-icons">pie_chart</span>
         <span class="text">Charts</span>
       </router-link>
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">assignment</span>
         <span class="text">Forms</span>
       </router-link>
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">star</span>
         <span class="text">Icons</span>
       </router-link>
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">notifications</span>
         <span class="text">Notification</span>
       </router-link>
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">widgets</span>
         <span class="text">Widgets</span>
       </router-link>
     </div>
     <h3>Extra</h3>
     <div class="menu">
-      <router-link class="button">
+      <router-link to="/Home" class="button">
         <span class="material-icons">star</span>
         <span class="text">Pages</span>
       </router-link>
