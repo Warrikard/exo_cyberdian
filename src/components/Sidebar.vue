@@ -11,7 +11,7 @@
         <span class="text">Dashbord</span>
       </router-link>
     </div>
-    
+
     <h3>Theme</h3>
     <div class="menu">
       <router-link to="/Colors" class="button">
@@ -158,6 +158,7 @@ aside {
       display: flex;
       align-items: center;
       text-decoration: none;
+      background-color: var(--dark1);
       transition: 0.2s ease-in-out;
       padding: 0.5rem 1rem;
       .material-icons {
@@ -189,6 +190,7 @@ aside {
   .footer {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+
     p {
       font-size: 0.875rem;
       color: var(--grey);
