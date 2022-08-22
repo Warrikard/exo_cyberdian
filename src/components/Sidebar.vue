@@ -88,7 +88,7 @@
 <!-- Parti script et interaction-->
 <script setup>
 import { ref } from 'vue';
-import logoURL from '../assets/vue.svg';
+import logoURL from '../assets/Core.png';
 const is_expanded = ref(localStorage.getItem('is_expanded') === 'true');
 const ToggleMenu = () => {
   is_expanded.value = !is_expanded.value;
@@ -112,23 +112,25 @@ aside {
     flex: 1 1 0%;
   }
   .logo {
-    margin-bottom: 0rem;
+    margin-bottom: 0.25rem;
+    margin-top: -0.5rem;
     text-align: center;
     img {
-      width: 2rem;
+      width: 5rem;
     }
   }
   .menu-toggle-wrap {
     display: flex;
     justify-content: flex-end;
-    margin-top: 0rem;
+    margin-top: 0.2rem;
+    margin-bottom: -0.4rem;
     position: relative;
     top: 0;
     transition: 0.2s ease-in-out;
     .menu-toggle {
       transition: 0.2s ease-in-out;
       .material-icons {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         color: var(--light);
         transition: 0.2s ease-out;
       }
