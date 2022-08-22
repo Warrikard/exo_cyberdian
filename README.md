@@ -4,8 +4,6 @@ Ce programme affiche un menu responsive premettant de naviguer entrer des onglet
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-uxbq4s)# Vue 3 + Vite
 
-Pas eu le temps de finir le changement de couleur du background des titres d'onglets
-
 
 ## Appendix
 
