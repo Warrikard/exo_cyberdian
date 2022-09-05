@@ -151,7 +151,7 @@ export default {
     },
     width: {
       type: Number,
-      default: 900,
+      default: 1000,
     },
     height: {
       type: Number,
@@ -251,6 +251,7 @@ hr {
 .cases_liens {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .lien1 {
   text-align: center;
