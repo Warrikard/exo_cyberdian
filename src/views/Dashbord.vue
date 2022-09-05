@@ -233,9 +233,11 @@ hr {
 .cases_rouge {
   background-color: red;
 }
+.cases_tab {
+  margin: 15px;
+}
 .tab_graph {
   background-color: white;
-  margin: 15px;
 }
 .barre_p {
   display: flex;
