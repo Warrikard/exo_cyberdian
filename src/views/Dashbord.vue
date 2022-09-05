@@ -151,7 +151,7 @@ export default {
     },
     width: {
       type: Number,
-      default: 1000,
+      default: 900,
     },
     height: {
       type: Number,
