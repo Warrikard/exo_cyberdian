@@ -62,11 +62,31 @@
           />
         </div>
         <!--div barre progression-->
-        <div>
-          <div>
-            <p>zerg</p>
+        <div class="barre_p">
+          <div class="barres">
+            <p style="font-size: 12px">zerg</p>
             <h3>azer</h3>
-            <progress value="70" max="100">70 %</progress>
+            <progress value="40" max="100">40 %</progress>
+          </div>
+          <div class="barres">
+            <p style="font-size: 12px">zerg</p>
+            <h3>azer</h3>
+            <progress value="20" max="100">20 %</progress>
+          </div>
+          <div class="barres">
+            <p style="font-size: 12px">zerg</p>
+            <h3>azer</h3>
+            <progress value="60" max="100">60 %</progress>
+          </div>
+          <div class="barres">
+            <p style="font-size: 12px">zerg</p>
+            <h3>azer</h3>
+            <progress value="80" max="100">80 %</progress>
+          </div>
+          <div class="barres">
+            <p style="font-size: 12px">zerg</p>
+            <h3>azer</h3>
+            <progress value="40" max="100">40 %</progress>
           </div>
         </div>
       </div>
@@ -74,11 +94,23 @@
       <!--div liens-->
       <div class="cases_liens">
         <!--div fb-->
-        <div></div>
+        <a href="https://fr-fr.facebook.com/">
+          <div class="lien1">
+            <h4>FB</h4>
+          </div>
+        </a>
         <!--div twitter-->
-        <div></div>
+        <a href="https://fr-fr.facebook.com/">
+          <div class="lien2">
+            <h4>Twitter</h4>
+          </div>
+        </a>
         <!--div linkedin-->
-        <div></div>
+        <a href="https://fr-fr.facebook.com/">
+          <div class="lien3">
+            <h4>LiknkedIn</h4>
+          </div>
+        </a>
       </div>
     </div>
   </main>
@@ -204,5 +236,45 @@ hr {
 .tab_graph {
   background-color: white;
   margin: 15px;
+}
+.barre_p {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(189, 189, 189);
+}
+.barres {
+  text-align: center;
+  margin: 25px;
+}
+.cases_liens {
+  display: flex;
+  flex-direction: row;
+}
+.lien1 {
+  text-align: center;
+  color: white;
+  background-color: navy;
+  width: 340px;
+  height: 120px;
+  padding-top: 50px;
+  margin: 25px;
+}
+.lien2 {
+  text-align: center;
+  color: white;
+  background-color: blue;
+  width: 340px;
+  height: 120px;
+  padding-top: 50px;
+  margin: 25px;
+}
+.lien3 {
+  text-align: center;
+  color: white;
+  background-color: navy;
+  width: 340px;
+  height: 120px;
+  padding-top: 50px;
+  margin: 25px;
 }
 </style>
