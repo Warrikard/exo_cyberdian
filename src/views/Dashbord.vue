@@ -96,18 +96,21 @@
         <!--div fb-->
         <a href="https://fr-fr.facebook.com/">
           <div class="lien1">
+            <!-- Pas pu mettre de logo-->
             <h4>FB</h4>
           </div>
         </a>
         <!--div twitter-->
         <a href="https://twitter.com/">
           <div class="lien2">
+            <!-- Pas pu mettre de logo-->
             <h4>Twitter</h4>
           </div>
         </a>
         <!--div linkedin-->
         <a href="https://www.linkedin.com/">
           <div class="lien3">
+            <!-- Pas pu mettre de logo-->
             <h4>LiknkedIn</h4>
           </div>
         </a>
