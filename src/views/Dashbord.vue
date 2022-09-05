@@ -42,11 +42,6 @@
 
       <!--div zone tableau-->
       <div class="cases_tab">
-        <!--div entete tableau-->
-        <div>
-          <div></div>
-          <div></div>
-        </div>
         <!--div tableau-->
         <div class="tab_graph">
           <Bar
@@ -64,28 +59,28 @@
         <!--div barre progression-->
         <div class="barre_p">
           <div class="barres">
-            <p style="font-size: 12px">Visits</p>
-            <h3>29.703 Users (40%)</h3>
+            <p style="font-size: 11px">Visits</p>
+            <h3 style="font-size: 15px">29.703 Users (40%)</h3>
             <progress value="40" max="100">40 %</progress>
           </div>
           <div class="barres">
-            <p style="font-size: 12px">Unique</p>
-            <h3>24.093 Users (20%)</h3>
+            <p style="font-size: 11px">Unique</p>
+            <h3 style="font-size: 15px">24.093 Users (20%)</h3>
             <progress value="20" max="100">20 %</progress>
           </div>
           <div class="barres">
-            <p style="font-size: 12px">Pageviews</p>
-            <h3>78.706 View (60%)</h3>
+            <p style="font-size: 11px">Pageviews</p>
+            <h3 style="font-size: 15px">78.706 View (60%)</h3>
             <progress value="60" max="100">60 %</progress>
           </div>
           <div class="barres">
-            <p style="font-size: 12px">New Users</p>
-            <h3>22.123 Users (80%)</h3>
+            <p style="font-size: 11px">New Users</p>
+            <h3 style="font-size: 15px">22.123 Users (80%)</h3>
             <progress value="80" max="100">80 %</progress>
           </div>
           <div class="barres">
-            <p style="font-size: 12px">Bounce Rate</p>
-            <h3>40.15%</h3>
+            <p style="font-size: 11px">Bounce Rate</p>
+            <h3 style="font-size: 15px">40.15%</h3>
             <progress value="40" max="100">40 %</progress>
           </div>
         </div>
