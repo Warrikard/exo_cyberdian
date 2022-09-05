@@ -100,13 +100,13 @@
           </div>
         </a>
         <!--div twitter-->
-        <a href="https://fr-fr.facebook.com/">
+        <a href="https://twitter.com/">
           <div class="lien2">
             <h4>Twitter</h4>
           </div>
         </a>
         <!--div linkedin-->
-        <a href="https://fr-fr.facebook.com/">
+        <a href="https://www.linkedin.com/">
           <div class="lien3">
             <h4>LiknkedIn</h4>
           </div>
