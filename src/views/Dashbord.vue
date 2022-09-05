@@ -247,6 +247,7 @@ hr {
   display: flex;
   flex-direction: row;
   background-color: rgb(189, 189, 189);
+  justify-content: space-between;
 }
 .barres {
   text-align: center;
