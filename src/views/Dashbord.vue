@@ -62,7 +62,13 @@
           />
         </div>
         <!--div barre progression-->
-        <div></div>
+        <div>
+          <div>
+            <p>zerg</p>
+            <h3>azer</h3>
+            <progress value="70" max="100">70 %</progress>
+          </div>
+        </div>
       </div>
 
       <!--div liens-->
@@ -140,6 +146,16 @@ export default {
       },
       chartOptions: {
         responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Traffic',
+            align: 'start',
+            padding: {
+              top: 10,
+            },
+          },
+        },
       },
     };
   },
