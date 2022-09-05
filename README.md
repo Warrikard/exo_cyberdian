@@ -28,6 +28,7 @@ Install dependencies
   npm run dev
   npm i vue-chartjs chart.js
   npm install vue-chartkick chart.js
+  npm i vue-chartjs chart.js
 ```
 
 Start the server
