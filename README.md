@@ -26,7 +26,7 @@ Install dependencies
   npm add -D sass
   npm i vue-router
   npm run dev
-  npm install chart.js
+  npm i vue-chartjs chart.js
 ```
 
 Start the server
