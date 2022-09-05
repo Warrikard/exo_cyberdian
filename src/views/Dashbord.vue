@@ -212,6 +212,7 @@ hr {
   display: flex;
   flex-direction: row;
   padding: 5px;
+  justify-content: space-between;
 }
 
 .cases_couleurs div {
